@@ -17,7 +17,7 @@
       transform: translate(-50%, -50%);
       background-color: rgba(0,0,0,0.5);
     }
-
+	
     body{
       background-image: url('img/');
       background-repeat:no-repeat;

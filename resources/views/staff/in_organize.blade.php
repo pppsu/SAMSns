@@ -6,7 +6,7 @@ Staff
 @endsection
 @section('content')
 <style type="text/css">
-	
+
 	table, td, th {    
 		border: 1px solid #ddd;
 		text-align: center;
@@ -45,55 +45,51 @@ Staff
 			<tr>
 				<th data-field="ora">Organizetion Name</th>
 				<th data-field="adviser">Adviser</th>
-				<th data-field="adviser">Adviser</th>
-				<th data-field="adviser">Adviser</th>
-				<th data-field="manage">	</th>
+				<th data-field="adviser">StartDate</th>
+				<th data-field="adviser">EndDate</th>
+				<th data-field="manage"></th>
 			</tr>
 		</thead>
 
 		<tbody >
 			<tr class="jsgrid-alt-row">
-				<td style="width: 150px;">PSU PIX</td>
-				<td style="width: 150px;">Name</td>
-				<td style="width: 150px;">Name</td>
-				<td class="jsgrid-align-center" style="width: 100px;">Brazil</td>
-				<td style="width: 50px;">
-				<a href=""><i class="Tiny material-icons ">mode_edit</i></a>
-				<a href=""><i class="Tiny material-icons " style="color: red">delete</i></a>
+				<td>PSU PIX</td>
+				<td>Dr.Adisak Intana</td>
+				<td>
+					<a href=""><i class="Tiny material-icons ">mode_edit</i></a>
+					<a href=""><i class="Tiny material-icons " style="color: red">delete</i></a>
+					</td>
 				</tr>
 
 				<tr class="jsgrid-alt-row">
-				<td style="width: 150px;">PSU PIX</td>
-				<td style="width: 150px;">Name</td>
-				<td style="width: 150px;">Name</td>
-				<td class="jsgrid-align-center" style="width: 100px;">Brazil</td>
-				<td style="width: 50px;">
-				<a href=""><i class="Tiny material-icons ">mode_edit</i></a>
-				<a href=""><i class="Tiny material-icons " style="color: red">delete</i></a>
-				</tr>
+					<td>Flower</td>
+					<td>Aj.Jamikorn Hiranrat</td>
+					<td>
+						<a href=""><i class="Tiny material-icons ">mode_edit</i></a>
+						<a href=""><i class="Tiny material-icons " style="color: red">delete</i></a>
+						</td>
+					</tr>
 
-				<tr class="jsgrid-alt-row">
-				<td style="width: 150px;">PSU PIX</td>
-				<td style="width: 150px;">Name</td>
-				<td style="width: 150px;">Name</td>
-				<td class="jsgrid-align-center" style="width: 100px;">Brazil</td>
-				<td style="width: 50px;">
-				<a href=""><i class="Tiny material-icons ">mode_edit</i></a>
-				<a href=""><i class="Tiny material-icons " style="color: red">delete</i></a>
-				</tr>
+					<tr class="jsgrid-alt-row">
+						<td>Software Gang</td>
+						<td>Dr.Aziz Nanthaamornphong</td>
+						<td>
+							<a href=""><i class="Tiny material-icons ">mode_edit</i></a>
+							<a href=""><i class="Tiny material-icons " style="color: red">delete</i></a>
+							</td>
+						</tr>
 
-				<tr class="jsgrid-alt-row">
-				<td style="width: 150px;">PSU PIX</td>
-				<td style="width: 150px;">Name</td>
-				<td style="width: 150px;">Name</td>
-				<td class="jsgrid-align-center" style="width: 100px;">Brazil</td>
-				<td style="width: 50px;">
-				<a href=""><i class="Tiny material-icons ">mode_edit</i></a>
-				<a href=""><i class="Tiny material-icons " style="color: red">delete</i></a>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-	@endsection
-	@section('js')	
-	@endsection
+						<tr class="jsgrid-alt-row">
+							<td>PSU PIX</td>
+							<td>Korawit Prutsachainimmit</td>
+							<td>
+								<a href=""><i class="Tiny material-icons ">mode_edit</i></a>
+								<a href=""><i class="Tiny material-icons " style="color: red">delete</i></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				@endsection
+				@section('js')	
+				@endsection

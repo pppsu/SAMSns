@@ -28,7 +28,15 @@
         .bk{
         background-color: #212121;
         }
-    
+        li{
+            background-color: rgba(0,0,0,0); ;
+        }
+        .side-nav a:hover {
+         background-color: rgba(0,0,0,0.1) !important;
+        }
+        .side-nav  {
+         background-image: url(img/black.jpg) !important;
+        }
     </style>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -37,25 +45,26 @@
 <body>
     <header>
         <nav>
-            <div class="nav-wrapper grey darken-3">
+            <div class="nav-wrapper">
                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="sass.html">Staff:</a></li>
+                    <li><a href="badges.html">Jeson Along</a></li>
                     <li><a href="collapsible.html">Logout</a></li>
 
                 </ul>
             </div>
         </nav>
 
-        <ul id="slide-out" class="side-nav fixed">
+        <ul id="slide-out" class="side-nav fixed " >
+
             <li>
-            <div class="userView" style="padding: 32px 32px 200px">
+            <div class="userView " style="padding: 32px 32px 90px">
                 <img class="circle" src="img/PSU2.png">
             </div>
             </li>
             <li><div class="divider"></div></li>
-            <ul class="collapsible">
+            <ul class="collapsible blue-text">
                 <li>
                     <div class="collapsible-header">
                         Organization Information
